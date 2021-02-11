@@ -1,0 +1,40 @@
+.container{
+    
+    width: 50%;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+} 
+
+.search-box{
+    width: 80%;
+    position: relative;
+    display: flex;
+}
+.search{
+    width: 100%;
+    outline: none;
+    padding: 5px;
+    height: 35px;
+    background-color: rgb(255, 247, 241);
+    border: none;
+}
+#search-btn{
+    background-color: rgb(255, 136, 0);
+    width: 100px;
+    border: none;
+    color: white;
+}
+.mainDiv{
+    float: left;
+    
+    /* style="float: left; " */
+}
+
+#search-result{
+    margin-top: 10%;
+    height: 35%;
+    width: 65%;
+    margin-left: 15%;
+}
